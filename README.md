@@ -15,7 +15,7 @@ HTML Game 青蛙过河游戏
         
 **设计模式**
 
-游戏主要才有观察者设计模式，定义subscribe()和publish()方法，来实现应用程序内的通信，避免紧耦合模块的使用。
+游戏主要采用观察者设计模式，定义subscribe()和publish()方法，来实现应用程序内的通信，避免紧耦合模块的使用。
 
         observer:(function(){
             var events = {};
